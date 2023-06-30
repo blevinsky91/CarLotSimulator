@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace CarLotSimulator
 {
 	internal class CarLot
@@ -7,7 +8,7 @@ namespace CarLotSimulator
 		//{
 		//}
 
-		public List<Car> ListOfCars { get; set; }
+		public List<Car> ListOfCars { get; set; } = new List<Car>();
 	}
 }
 
