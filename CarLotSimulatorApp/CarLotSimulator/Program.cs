@@ -9,13 +9,13 @@ namespace CarLotSimulator
         {
 
             
-            Console.WriteLine($"There are {CarLot.numberOfCars} cars on my lot");
+            Console.WriteLine($"There are {CarLot.numberOfCars++} cars on my lot");
 
             
-            Console.WriteLine($"There are {CarLot.numberOfCars+1} cars on my lot");
+            Console.WriteLine($"There are {CarLot.numberOfCars++} cars on my lot");
 
-            
-            Console.WriteLine($"There are {CarLot.numberOfCars+2} cars on my lot");
+
+            Console.WriteLine($"There are {CarLot.numberOfCars++} cars on my lot");
 
 
 
