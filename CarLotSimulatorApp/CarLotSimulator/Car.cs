@@ -8,7 +8,7 @@ namespace CarLotSimulator
 		//{
 		//}
 
-		public string Make { get; set; }
+		public string Make { get; set; } //field
 		public string Model { get; set; }
 		public int Year { get; set; }
 		public string EngineNoise { get; set; }
